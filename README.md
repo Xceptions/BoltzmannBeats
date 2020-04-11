@@ -1,10 +1,9 @@
-# tensorflow-music-generator
-generates music (midi files) using a Tensorflow Restricted Boltzmann Machine
+# music_generator_rbm
+generates music (midi files) using a Restricted Boltzmann Machine with code written in tensorflow
 
 
 ## Overview
-Use TensorFlow to generate short sequences of music with a [Restricted Boltzmann Machine](http://deeplearning4j.org/restrictedboltzmannmachine.html). 
-Original code comes from YouTube, see here: (https://youtu.be/ZE7qWXX05T0)
+Use TensorFlow to generate short sequences of music with a [Restricted Boltzmann Machine](http://deeplearning4j.org/restrictedboltzmannmachine.html).
 
 ## Dependencies
 
@@ -30,10 +29,11 @@ Use [pip](https://pypi.python.org/pypi/pip) to install any missing dependencies 
 
 ## Basic Usage
 To train the model and create music, simply clone this directory and run.
-Note: This work was trained on some country music
 ```
 python main.py
 ```
+Note: This work was trained on some country music
+
 
 The training data goes in the Music_Data folder. You have to use MIDI files. You can find some [here](http://www.midiworld.com/files/).
 I have already added pop songs.
@@ -41,6 +41,6 @@ Training will take 5-10 minutes on a modern laptop. The output will be a collect
 
 ## Credits
 
-The credit for this code goes to [burliEnterprises](https://github.com/burliEnterprises/tensorflow-music-generator)
+The credit for this code goes to [burliEnterprises](https://github.com/burliEnterprises/tensorflow-music-generator). This work feeds off his.
 
 Enjoy Away!
